@@ -1,5 +1,5 @@
 public class BubbleSort implements SortingAlgorithm{
-    //@Override
+    @Override
     public int[] sorty(int[] input) {
         for(int i = 0; i < input.length-1; i++){
             for(int j = 0; j < input.length - i-1; j++){
